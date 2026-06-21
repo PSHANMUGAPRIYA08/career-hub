@@ -100,6 +100,12 @@ These credentials are provided for demonstration purposes only. The project uses
 
 https://pshanmugapriya08.github.io/career-hub/
 
+Demo Credentials
+
+Username: admin
+
+Password: 1234
+
 ## 👩‍💻 Developer
 
 Shanmugapriya P
