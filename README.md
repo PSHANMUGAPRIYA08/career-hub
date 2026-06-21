@@ -65,7 +65,7 @@ It helps users manage tasks, track job applications, monitor progress, and stay 
 
 ## 🚀 Live Demo
 
-(Add GitHub Pages link here after deployment)
+https://pshanmugapriya08.github.io/career-hub/
 
 ## 👩‍💻 Developer
 
