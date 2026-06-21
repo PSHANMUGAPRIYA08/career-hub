@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <div class="logo">
+        🚀 Career Hub
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="analytics.html">Analytics</a>
+        <a href="profile.html">Profile</a>
+    </div>
+<div class="theme-toggle">
+
+    <button id="themeBtn"
+            onclick="toggleTheme()">
+        🌙
+    </button>
+
+    <button onclick="logout()">
+        Logout
+    </button>
+
+</div>
+</div>
+
+    <div class="card">
+
+        <h2>📋 Task Statistics</h2>
+
+        <p>Total Tasks: <span id="totalTasks">0</span></p>
+
+        <p>Completed Tasks: <span id="completedTasks">0</span></p>
+
+        <p>Pending Tasks: <span id="pendingTasks">0</span></p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>💼 Job Statistics</h2>
+
+        <p>Total Applications: <span id="totalJobs">0</span></p>
+
+        <p>Interviews: <span id="interviewJobs">0</span></p>
+
+        <p>Selected: <span id="selectedJobs">0</span></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<footer>
+
+    <p>
+        © 2026 Career Hub | Developed by Shanmugapriya
+    </p>
+
+</footer>
+</body>
+</html>

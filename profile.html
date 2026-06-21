@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <div class="logo">
+        🚀 Career Hub
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="analytics.html">Analytics</a>
+        <a href="profile.html">Profile</a>
+    </div>
+<div class="theme-toggle">
+
+    <button id="themeBtn"
+            onclick="toggleTheme()">
+        🌙
+    </button>
+
+    <button onclick="logout()">
+        Logout
+    </button>
+
+</div>
+</div>
+
+    <div class="card" id="profileFormCard">
+
+        <h2>Profile Information</h2>
+
+        <input
+            type="text"
+            id="nameInput"
+            placeholder="Your Name">
+
+        <input
+            type="text"
+            id="goalInput"
+            placeholder="Career Goal">
+
+        <button onclick="saveProfile()">
+            Save Profile
+        </button>
+
+    </div>
+<div class="card" id="profileDisplayCard">
+
+        <h2>Saved Profile</h2>
+
+        <p>
+            <strong>Name:</strong>
+            <span id="showName">Not Set</span>
+        </p>
+
+        <p>
+            <strong>Career Goal:</strong>
+            <span id="showGoal">Not Set</span>
+        </p>
+<br><br>
+
+<button onclick="editProfile()">
+    Edit Profile
+</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<footer>
+
+    <p>
+        © 2026 Career Hub | Developed by Shanmugapriya
+    </p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Career Hub Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <div class="logo">
+        🚀 Career Hub
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="analytics.html">Analytics</a>
+        <a href="profile.html">Profile</a>
+    </div>
+
+    <div class="theme-toggle">
+
+        <button id="themeBtn"
+                onclick="toggleTheme()">
+            🌙
+        </button>
+        <button onclick="logout()">
+    Logout
+</button>
+
+    </div>
+
+</div>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+
+    <div class="card">
+
+        <h2>👋 Welcome to Career Hub</h2>
+
+        <p>
+            Manage your tasks, track job applications,
+            monitor progress, and achieve your career goals.
+        </p>
+
+    </div>
+<div class="card">
+
+    <h2>🕒 Current Time</h2>
+
+    <h3 id="clock">
+        00:00:00
+    </h3>
+
+    <p id="currentDate">
+        Loading Date...
+    </p>
+
+</div>
+    <div class="stats-container">
+
+        <div class="card stat-card">
+            <h2 id="dashboardTasks">0</h2>
+            <p>Total Tasks</p>
+        </div>
+
+        <div class="card stat-card">
+            <h2 id="dashboardCompleted">0</h2>
+            <p>Completed Tasks</p>
+        </div>
+
+        <div class="card stat-card">
+            <h2 id="dashboardJobs">0</h2>
+            <p>Applications</p>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🔔 Notifications</h2>
+
+        <div id="notifications">
+            No notifications
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📌 Navigation</h2>
+
+        <p>
+            <a href="tasks.html">
+                📋 Task Manager
+            </a>
+        </p>
+
+        <p>
+            <a href="jobs.html">
+                💼 Job Tracker
+            </a>
+        </p>
+
+        <p>
+            <a href="analytics.html">
+                📊 Analytics
+            </a>
+        </p>
+
+        <p>
+            <a href="profile.html">
+                👤 Profile
+            </a>
+        </p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🔥 Daily Motivation</h2>
+
+       <p id="quote">
+    Loading Motivation...
+</p>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🏆 Achievements</h2>
+
+        <div id="badges">
+            No achievements yet
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📁 Data Export</h2>
+
+        <button onclick="exportData()">
+            Export My Data
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <p>
+        © 2026 Career Hub | Developed by Shanmugapriya
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</body>
+</html>

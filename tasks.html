@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tasks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+    <div class="logo">
+        🚀 Career Hub
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Dashboard</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="analytics.html">Analytics</a>
+        <a href="profile.html">Profile</a>
+    </div>
+<div class="theme-toggle">
+
+    <button id="themeBtn"
+            onclick="toggleTheme()">
+        🌙
+    </button>
+
+    <button onclick="logout()">
+        Logout
+    </button>
+
+</div>
+</div>
+<div class="card">
+
+    <h2>🔍 Search Tasks</h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search Tasks"
+        onkeyup="searchTasks()">
+        <select
+    id="filterPriority"
+    onchange="filterTasks()">
+
+    <option value="All">
+        All Priorities
+    </option>
+
+    <option value="High">
+        High
+    </option>
+
+    <option value="Medium">
+        Medium
+    </option>
+
+    <option value="Low">
+        Low
+    </option>
+
+</select>
+</div>
+    <div class="card">
+
+        <h2>Add Task</h2>
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter Task">
+        <input
+            type="date"
+            id="dueDate">
+            <select id="priorityInput">
+
+    <option value="High">
+        🔥 High Priority
+    </option>
+
+    <option value="Medium">
+        ⚡ Medium Priority
+    </option>
+
+    <option value="Low">
+        ✅ Low Priority
+    </option>
+
+</select>
+
+        <button onclick="addTask()">
+            Add Task
+        </button>
+
+    </div>
+    <div class="card">
+
+    <h2>📈 Progress</h2>
+
+    <p id="progressText">0%</p>
+
+    <div class="progress-container">
+
+        <div id="progressBar"></div>
+
+    </div>
+
+</div>
+
+    <div class="card">
+
+        <h2>My Tasks</h2>
+
+        <ul id="taskList"></ul>
+
+    </div>
+
+</div>
+<div id="editModal" class="modal">
+
+    <div class="modal-content">
+
+        <h2>Edit Task</h2>
+
+        <input
+            type="text"
+            id="editTaskInput"
+            placeholder="Task Name"
+        >
+
+        <input
+            type="date"
+            id="editDueDate"
+        >
+
+        <select id="editPriority">
+
+            <option value="High">
+                🔥 High
+            </option>
+
+            <option value="Medium">
+                ⚡ Medium
+            </option>
+
+            <option value="Low">
+                ✅ Low
+            </option>
+
+        </select>
+
+        <button onclick="saveEditedTask()">
+            Save Changes
+        </button>
+
+        <button onclick="closeModal()">
+            Cancel
+        </button>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+<footer>
+
+    <p>
+        © 2026 Career Hub | Developed by Shanmugapriya
+    </p>
+
+</footer>
+</body>
+</html>
