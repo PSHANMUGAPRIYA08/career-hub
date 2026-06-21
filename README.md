@@ -63,27 +63,27 @@ It helps users manage tasks, track job applications, monitor progress, and stay 
 
 ### Login Page
 
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/login.png.png)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png.png)
 
 ### Tasks
 
-![Tasks](screenshots/tasks.png)
+![Tasks](screenshots/tasks.png.png)
 
 ### Job Tracker
 
-![Jobs](screenshots/jobs.png)
+![Jobs](screenshots/jobs.png.png)
 
 ### Analytics
 
-![Analytics](screenshots/analytics.png)
+![Analytics](screenshots/analytics.png.png)
 
 ### Profile
 
-![Profile](screenshots/profile.png)
+![Profile](screenshots/profile.png.png)
 
 ## 🚀 Live Demo
 
