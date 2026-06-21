@@ -4,6 +4,17 @@ Career Hub is a web-based career management application developed using HTML, CS
 
 It helps users manage tasks, track job applications, monitor progress, and stay organized during their job search journey.
 
+## 🔐 Demo Login Credentials
+
+To explore the application, use the following credentials:
+
+**Username:** admin
+
+**Password:** 1234
+
+These credentials are provided for demonstration purposes only. The project uses client-side authentication and is intended for learning and portfolio showcase purposes.
+
+
 ## ✨ Features
 
 ### 📋 Task Manager
